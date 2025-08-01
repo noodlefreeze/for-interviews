@@ -11,7 +11,7 @@ Array.prototype.myReduce = function <T, U>(
   initialValue?: U
 ): U {
   if (this.length === 0 && initialValue === undefined) {
-    throw new TypeError('Reduce of empty array with no initial')
+    throw new TypeError('Reduce of empty array with no initial value')
   }
 
   let i = initialValue === undefined ? 1 : 0
@@ -22,7 +22,7 @@ Array.prototype.myReduce = function <T, U>(
 
     if (element === undefined) continue
 
-    result = callbackFn(result, this[i], i, this)
+    result = callbackFn(result, element, i, this)
   }
 
   return result
