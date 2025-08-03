@@ -2,7 +2,7 @@ export default function promiseAny<T>(iterable: Iterable<T>): Promise<T> {
   return new Promise((resolve, reject) => {
     const items = Array.from(iterable)
     if (items.length === 0) {
-      return reject(new AggregateError([], 'All promises were rejected'))
+      reject(new AggregateError([], 'All promises were rejected'))
     }
 
     let hasDone = false
