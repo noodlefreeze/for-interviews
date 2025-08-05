@@ -5,6 +5,7 @@
 - [ ] deep clone
 - [ ] deep equal
 - [ ] toc
+- [ ] identical dom trees
 
 ## 练习
 
