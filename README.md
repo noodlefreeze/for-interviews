@@ -4,6 +4,7 @@
 
 - [ ] deep clone
 - [ ] deep equal
+- [ ] toc
 
 ## 练习
 
