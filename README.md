@@ -1,7 +1,15 @@
-总有些事情要捏着鼻子去做
+> 总有些事情要捏着鼻子去做
+
+## 需要复习
+
+- [ ] deep clone
+- [ ] deep equal
+
+## 练习
 
 - JavaScript
 - React UI
 - React Hooks
 - System Designs
 - Quiz
+
